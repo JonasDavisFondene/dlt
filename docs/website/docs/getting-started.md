@@ -1,11 +1,11 @@
 ---
-title: Getting Started
+title: Getting started
 description: quick start with dlt
 keywords: [getting started, quick start, basic examples]
 ---
 import snippets from '!!raw-loader!./getting-started-snippets.py';
 
-# Getting Started
+# Getting started
 
 ## Overview
 
@@ -25,8 +25,6 @@ pip install -U dlt
 ```
 
 Command above installs (or upgrades) library core, in example below we use DuckDB as a destination so let's add a `duckdb` dependency:
-
-```bash
 
 ```bash
 pip install "dlt[duckdb]"
