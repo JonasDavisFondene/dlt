@@ -16,7 +16,18 @@ const sidebars = {
   tutorialSidebar: [
     'intro',
     'getting-started',
-    'build-a-pipeline-tutorial',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      link: {
+        type: 'doc',
+        id: 'tutorial/intro',
+      },
+      items: [
+        'tutorial/load-data-from-an-api',
+        'tutorial/grouping-resources',
+      ]
+    },
     {
       type: 'category',
       label: 'Integrations',
@@ -104,6 +115,7 @@ const sidebars = {
         'general-usage/credentials',
         'general-usage/schema',
         'general-usage/configuration',
+        'build-a-pipeline-tutorial',
         'reference/performance',
         {
           type: 'category',
