@@ -137,10 +137,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'How-to Guides',
+      label: 'How-to guides',
       link: {
         type: 'generated-index',
-        title: 'How-to Guides',
+        title: 'How-to guides',
         description: 'Overview of our walkthroughs. Learn how to use and deploy dlt.',
         slug: 'walkthroughs',
         keywords: ['walkthrough'],
@@ -216,10 +216,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Code Examples',
+      label: 'Code examples',
       link: {
         type: 'generated-index',
-        title: 'Code Examples',
+        title: 'Code examples',
         description: 'A list of comprehensive code examples that teach you how to solve real world problem.',
         slug: 'examples',
         keywords: ['examples'],
