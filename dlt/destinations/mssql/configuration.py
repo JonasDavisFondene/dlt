@@ -66,7 +66,7 @@ class MsSqlCredentials(ConnectionStringCredentials):
             "PWD": self.password,
         }
         if self.query:
-            params.update(self.query)
+            params.update({k.upper(): v for k, v in self.query.items()})
         return ";".join([f"{k}={v}" for k, v in params.items()])
 
 
