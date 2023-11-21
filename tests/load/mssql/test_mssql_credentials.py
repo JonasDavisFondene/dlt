@@ -6,7 +6,7 @@ from dlt.destinations.mssql.configuration import MsSqlCredentials
 
 def test_to_odbc_dsn() -> None:
     creds = resolve_configuration(
-        MsSqlCredentials("mssql://test_user:test_password@sql.example.com:12345/test_db?FOO=a&BAR=b")
+        MsSqlCredentials("mssql://test_user:test_password@sql.example.com:12345/test_db?FOO=a&BAR=b&driver=ODBC+Driver+18+for+SQL+Server")
     )
 
     dsn = creds.to_odbc_dsn()
